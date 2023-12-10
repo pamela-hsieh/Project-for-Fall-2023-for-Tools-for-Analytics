@@ -1,2 +1,10 @@
 # Ignore these files or directories
 *.csv
+*.dbf
+*.prj
+*.sbn
+*sbx
+*.shp
+*.xml
+*.shx
+*.shp.xml

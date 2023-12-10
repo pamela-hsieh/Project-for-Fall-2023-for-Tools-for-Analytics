@@ -1,0 +1,6 @@
+
+SELECT zipcode, COUNT(id)
+FROM  nyc311s
+WHERE created_date BETWEEN '2022-10-01' AND '2023-09-30'
+GROUP BY zipcode
+ORDER BY COUNT(id) DESC
